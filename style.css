@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #333;
+  }
+  
+  #level-title {
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  #highest-level {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+  }
+  
+  #game-over-text {
+    color: white;
+    font-size: 36px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  #simon-game {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .button {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  #green {
+    background-color: green;
+  }
+  
+  #red {
+    background-color: red;
+  }
+  
+  #yellow {
+    background-color: yellow;
+  }
+  
+  #blue {
+    background-color: blue;
+  }
+  
+  #start {
+    color: white;
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
